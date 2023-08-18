@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Hover Effect</title>
+<style>
+.image-container {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 3px solid transparent; /* Borde inicial transparente */
+  /* Transición suave en el efecto */
+}
+
+.image-container:hover img {
+  border: 5px solid #dcc834; /* Cambio de color y grosor del borde al hacer hover */
+}
+
+</style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="./Imagenes books/9780545010221.jpg" alt="Imagen">
+  </div>
+</body>
+</html>
